@@ -16,6 +16,9 @@ Check your systems maximun column with the pd.options.display.max_columun statem
 Increase the maximum number of rows to display the entire DataFrame.
 ## PROGRAM:
 ~~~
+Developed by: pragatheesvaran AB
+Register number: 212221240039
+
 import pandas as pd
 df = pd.read_csv('data.csv')
 print(df.head(10))
@@ -25,7 +28,7 @@ print("Row",len(df.axes[1]))
 ~~~
 
 ## OUTPUT:
-![output](csv.PNG)
+![output](csv.jpg)
 
 ## RESULT:
 Thus the program executed successfully for read csv file.
